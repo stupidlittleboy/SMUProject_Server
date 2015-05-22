@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #eee !important;
+	}
+caption{
+	text-align:center;
+}
+.close{
+	font-size:5em;
+	position:absolute;
+	top:0.01em;
+	right:0.5em;
+	outline:none;
+	cursor:point;
+	}
+#wrap {
+	font-size:16px;
+	height:40em;
+	width:90em;
+	margin:4em auto 3em auto; 
+	overflow:hidden;
+	position:relative;
+	border:#CCC medium solid;
+	border-radius:1em;
+	background:#FFF;
+	box-shadow:0 0 15px #330;
+	opacity:0.5;
+	} 
+#wrap #title{
+	height:4em;
+	line-height:4em;
+	padding-left:2.5em;
+    border-top:#CCC thin solid;
+	border-bottom:#CCC thin solid;
+	border-radius:1em;
+	} 
+#wrap .main-page{
+	width:90em; 
+	clear:both; 
+	position:absolute;
+	overflow:hidden;
+	} 
+.page-left{
+	float:left;
+	width:42.25em;
+	/*margin:0 0.25em 0 0;*/
+	border-left:#CCC thin solid;
+	border-right:#CCC thin solid;
+	height:36em;
+	border-radius:1em;
+	overflow:auto;
+	}
+.page-middle{
+	float:left;
+	position:absolute;
+	top:13em;
+	width:5.5em;
+	height:5.5em;
+	opacity:0.2;
+}
+.page-right{
+	float:right;
+	width:42.25em;
+	/*margin:0 0 0 0.25em;*/
+	border-left:#CCC thin solid;
+	border-right:#CCC thin solid;
+	height:36em;
+	border-radius:1em;
+	overflow:auto;
+	}
+div#btn_nav{
+	height:4em; 
+	line-height:4em; 
+	position:absolute;
+	left:45%;
+	} 
+div.form-group{
+	padding:1em;
+	}
+#myModal{
+	font-size:18px;
+	text-align:center;
+}
+#myModal h4{
+	font-size:24px;
+	color:#F00;
+	font-weight:bold;
+	}
+#searchInfo{
+	width:21em;
+}
+.page-left .form-group label{
+	width:7em;
+}
+.page-left .form-group select{
+	width:10em;
+}
+.page-left .form-group button{
+	width:4em;
+}
+.searchT{
+	width:42.1em;
+	border-bottom:#CCC thin solid;
+}
+.detail1{
+	cursor:pointer;
+	}
+.focus{
+	background:#03C;
+	color:#FFF
+}
